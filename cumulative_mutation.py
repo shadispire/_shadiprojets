@@ -48,7 +48,3 @@ while target_sen != start_sen:
         start_sen = second_sen
     count +=1
 print('generation = ', count)
-
-    
-
-
