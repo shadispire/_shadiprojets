@@ -5,7 +5,6 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
             #indexes = 0 > 26
             #elements = 27
 
-
 def randsen(n):
     result = ''
     for i in range(0,n):
@@ -33,8 +32,7 @@ def change(n):
     else:
         return n[:change_index] + alphabet[letter_index] + n[change_index+1:]
 
-#def evolve(n):
-target_sen = 'abc'
+target_sen = 'me think it is a weasel'
 print('target sen: ', target_sen)
 start_sen = randsen(len(target_sen))
 print('start sen: ', start_sen)
